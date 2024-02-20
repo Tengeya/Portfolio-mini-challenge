@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    position: relative;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    min-height: 100%;
+    letter-spacing: -0.01em;
+    display: flex;
+    flex-direction: column;
+    font-size:larger;
+}
+nav {
+    background-color:#333;
+    color:darkslategrey;
+    padding: 10px 0;
+    justify-content: right;
+    
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+section {
+    padding: 60px;
+    max-width: 95vw;
+    width: min(90vw, 85rem);
+    margin-inline: auto;
+    margin-inline-start: auto;
+#home{
+    background-color: #f9f9f9;
+}
+#projects{
+    background-color: #f9f9f9;
+}    
+}
+#contact{
+    background-color: #fff;
+    padding: 60px;
+}
+#about{
+    background-color: #fff;
+}
+h1{
+    font-size: 2.4rem;
+    line-height: 1.2;
+    text-rendering: optimizeLegibility;
+    position: relative;
+    z-index: 1;
+    font-weight: 800;
+}
+#contact {
+    padding: 60px;
+}
+
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    margin-bottom: 10px;
+}
+
+.contact-info ul li i {
+    margin-right: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.contact-form button {
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+.social-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-links ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-links ul li a {
+    color: black;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.social-links ul li a:hover {
+    color: #007bff;
+}
+
+.contact-info, .contact-form, .social-links {
+    margin-bottom: 20px; 
+}
+
+
+.contact-info, .contact-form {
+    margin-right: 20px; 
+    display: inline-block; 
+}
+
+
+.social-links {
+    clear: both;
+}
